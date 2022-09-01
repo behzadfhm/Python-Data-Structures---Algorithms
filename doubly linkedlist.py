@@ -124,15 +124,3 @@ class DoublyLinkedList():
         while temp is not None:
             print(temp.value)
             temp = temp.next
-
-
-my_doubly_linkedlist = DoublyLinkedList(1)
-my_doubly_linkedlist.append(2)
-my_doubly_linkedlist.append(3)
-my_doubly_linkedlist.append(4)
-my_doubly_linkedlist.append(5)
-my_doubly_linkedlist.pop()
-my_doubly_linkedlist.prepend(0)
-my_doubly_linkedlist.insert(5, 5)
-my_doubly_linkedlist.remove(2)
-my_doubly_linkedlist.print_list()
